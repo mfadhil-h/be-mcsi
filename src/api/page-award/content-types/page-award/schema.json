@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_awards",
+  "info": {
+    "singularName": "page-award",
+    "pluralName": "page-awards",
+    "displayName": "Page Award",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "headerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

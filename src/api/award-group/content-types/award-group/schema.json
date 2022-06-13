@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "award_groups",
+  "info": {
+    "singularName": "award-group",
+    "pluralName": "award-groups",
+    "displayName": "Award Group"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awardPeriod": {
+      "type": "string"
+    },
+    "awardGroupDescription": {
+      "type": "text"
+    }
+  }
+}

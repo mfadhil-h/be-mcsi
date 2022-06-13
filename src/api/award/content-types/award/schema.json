@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards",
+  "info": {
+    "singularName": "award",
+    "pluralName": "awards",
+    "displayName": "Award",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "award_group": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::award-group.award-group"
+    },
+    "year": {
+      "type": "integer"
+    }
+  }
+}
