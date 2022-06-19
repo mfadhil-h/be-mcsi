@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "page_awards",
+  "collectionName": "page_organization_mcsis",
   "info": {
-    "singularName": "page-award",
-    "pluralName": "page-awards",
-    "displayName": "Page Award",
+    "singularName": "page-organization-mcsi",
+    "pluralName": "page-organization-mcsis",
+    "displayName": "Page Organization MCSI",
     "description": ""
   },
   "options": {
@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "sectionTitle": {
-      "type": "string"
-    },
-    "sectionDescription": {
-      "type": "text"
-    },
     "header1": {
       "type": "string"
     },
@@ -34,6 +28,12 @@
         "videos",
         "audios"
       ]
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
     }
   }
 }

@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organization_mcsis",
+  "info": {
+    "singularName": "organization-mcsi",
+    "pluralName": "organization-mcsis",
+    "displayName": "Organization MCSI",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "organizationGroup": {
+      "type": "enumeration",
+      "enum": [
+        "commissioner-director",
+        "manager"
+      ]
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_general_addresses",
+  "info": {
+    "displayName": "Address",
+    "icon": "city"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "addressLine3": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "fax": {
+      "type": "string"
+    }
+  }
+}

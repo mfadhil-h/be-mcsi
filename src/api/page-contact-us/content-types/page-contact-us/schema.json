@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_contact_uses",
+  "info": {
+    "singularName": "page-contact-us",
+    "pluralName": "page-contact-uses",
+    "displayName": "Page Contact Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "headerBackground": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mapImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headOffice": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.address"
+    }
+  }
+}

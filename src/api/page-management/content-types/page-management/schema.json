@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "awards",
+  "kind": "singleType",
+  "collectionName": "page_managements",
   "info": {
-    "singularName": "award",
-    "pluralName": "awards",
-    "displayName": "Award",
+    "singularName": "page-management",
+    "pluralName": "page-managements",
+    "displayName": "Page Management",
     "description": ""
   },
   "options": {
@@ -12,7 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "headerBackground": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -23,19 +29,11 @@
         "audios"
       ]
     },
-    "name": {
+    "sectionTitle": {
       "type": "string"
     },
-    "description": {
+    "sectionDescription": {
       "type": "text"
-    },
-    "award_group": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::award-group.award-group"
-    },
-    "year": {
-      "type": "string"
     }
   }
 }

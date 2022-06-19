@@ -1,23 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "page_awards",
+  "collectionName": "page_business_units",
   "info": {
-    "singularName": "page-award",
-    "pluralName": "page-awards",
-    "displayName": "Page Award",
-    "description": ""
+    "singularName": "page-business-unit",
+    "pluralName": "page-business-units",
+    "displayName": "Page Business Unit"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "sectionTitle": {
-      "type": "string"
-    },
-    "sectionDescription": {
-      "type": "text"
-    },
     "header1": {
       "type": "string"
     },
@@ -25,15 +18,20 @@
       "type": "string"
     },
     "headerBackground": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
     }
   }
 }
