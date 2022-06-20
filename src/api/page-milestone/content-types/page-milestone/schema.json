@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_milestones",
+  "info": {
+    "singularName": "page-milestone",
+    "pluralName": "page-milestones",
+    "displayName": "Page Milestone"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "headerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    }
+  }
+}
