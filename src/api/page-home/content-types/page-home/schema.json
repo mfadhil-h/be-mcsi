@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "Page Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "videoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "sectionBusinessUnitTitle": {
+      "type": "string"
+    },
+    "sectionBusinessUnitDescription": {
+      "type": "string"
+    },
+    "sectionNumbersTitle": {
+      "type": "string"
+    },
+    "sectionNumbersDescription": {
+      "type": "string"
+    },
+    "sectionNumbersBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.numbers"
+    }
+  }
+}

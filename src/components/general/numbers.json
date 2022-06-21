@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_numbers",
+  "info": {
+    "displayName": "Numbers"
+  },
+  "options": {},
+  "attributes": {
+    "line1": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    }
+  }
+}
