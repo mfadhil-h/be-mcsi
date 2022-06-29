@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organization_etsis",
+  "info": {
+    "singularName": "organization-etsi",
+    "pluralName": "organization-etsis",
+    "displayName": "Organization ETSI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "organizationGroup": {
+      "type": "enumeration",
+      "enum": [
+        "commissioner-director",
+        "manager"
+      ]
+    },
+    "order": {
+      "unique": true,
+      "type": "integer"
+    }
+  }
+}

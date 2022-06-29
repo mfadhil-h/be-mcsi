@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_organization_etsis",
+  "info": {
+    "singularName": "page-organization-etsi",
+    "pluralName": "page-organization-etsis",
+    "displayName": "Page Organization ETSI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "headerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    }
+  }
+}
