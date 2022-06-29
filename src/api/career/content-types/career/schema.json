@@ -15,23 +15,16 @@
     "jobTitle": {
       "type": "string"
     },
-    "jobType": {
-      "type": "enumeration",
-      "enum": [
-        "Full Time",
-        "Part Time"
-      ]
-    },
-    "location": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::career-location.career-location"
-    },
     "link": {
       "type": "string"
     },
     "isOpen": {
       "type": "boolean"
+    },
+    "career_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::career-type.career-type"
     }
   }
 }
