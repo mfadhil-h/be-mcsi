@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organization_chart_mcsis",
+  "info": {
+    "singularName": "organization-chart-mcsi",
+    "pluralName": "organization-chart-mcsis",
+    "displayName": "Organization Chart MCSI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    }
+  }
+}

@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "page_organization_mcsis",
+  "collectionName": "page_organization_chart_mcsis",
   "info": {
-    "singularName": "page-organization-mcsi",
-    "pluralName": "page-organization-mcsis",
-    "displayName": "Page Management MCSI",
-    "description": ""
+    "singularName": "page-organization-chart-mcsi",
+    "pluralName": "page-organization-chart-mcsis",
+    "displayName": "Page Organization Chart MCSI"
   },
   "options": {
     "draftAndPublish": true
@@ -19,15 +18,14 @@
       "type": "string"
     },
     "headerBackground": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "sectionTitle": {
       "type": "string"

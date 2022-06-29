@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_organization_chart_etsis",
+  "info": {
+    "singularName": "page-organization-chart-etsi",
+    "pluralName": "page-organization-chart-etsis",
+    "displayName": "Page Organization Chart ETSI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "headerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
