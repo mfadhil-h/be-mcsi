@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page-organization-chart-etsi",
     "pluralName": "page-organization-chart-etsis",
-    "displayName": "Page Organization Chart ETSI"
+    "displayName": "Page Management ETSI",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,14 +25,15 @@
       "type": "text"
     },
     "headerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
