@@ -57,14 +57,26 @@
         "audios"
       ]
     },
-    "vision": {
-      "type": "text"
+    "visionShort": {
+      "type": "text",
+      "maxLength": 256
     },
-    "mission": {
-      "type": "text"
+    "missionShort": {
+      "type": "text",
+      "maxLength": 256
     },
-    "companyValue": {
-      "type": "text"
+    "companyValueShort": {
+      "type": "text",
+      "maxLength": 256
+    },
+    "visionLong": {
+      "type": "richtext"
+    },
+    "missionLong": {
+      "type": "richtext"
+    },
+    "companyValueLong": {
+      "type": "richtext"
     }
   }
 }
