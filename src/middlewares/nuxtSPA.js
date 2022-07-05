@@ -8,7 +8,7 @@ const path = require('path');
 module.exports = (config, { strapi }) => {
     const adminPath = strapi.config.admin.path.replace("/", '')
     const apiPath = strapi.config.api.rest.prefix.replace("/", '')
-    const restrictedPath = [apiPath, adminPath, "uploads", "_nuxt"]
+    const restrictedPath = [apiPath, adminPath, "upload", "uploads", "_nuxt"]
 
     const staticDir = path.resolve(strapi.config.server.dirs.public)
     return async (ctx, next) => {
