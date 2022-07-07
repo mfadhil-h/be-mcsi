@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_sitemaps",
+  "info": {
+    "singularName": "page-sitemap",
+    "pluralName": "page-sitemaps",
+    "displayName": "Page Sitemap",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "sitemap": {
+      "type": "richtext"
+    },
+    "headerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
