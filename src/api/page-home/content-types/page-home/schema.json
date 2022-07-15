@@ -61,6 +61,10 @@
       "type": "component",
       "repeatable": true,
       "component": "general.numbers"
+    },
+    "youtubeLink": {
+      "type": "string",
+      "default": "https://www.youtube.com/embed/Y18bUQkPU8w"
     }
   }
 }
