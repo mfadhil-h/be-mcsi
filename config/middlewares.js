@@ -6,7 +6,7 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'frame-src':["'self",'youtube.com', 'www.youtube.com'],
+          'frame-src': ['youtube.com', 'www.youtube.com'],
           upgradeInsecureRequests: null,
         },
       },
