@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "page_blogs",
+  "collectionName": "page_term_conditions",
   "info": {
-    "singularName": "page-blog",
-    "pluralName": "page-blogs",
-    "displayName": "Page Blog",
-    "description": ""
+    "singularName": "page-term-condition",
+    "pluralName": "page-term-conditions",
+    "displayName": "Page Term Condition"
   },
   "options": {
     "draftAndPublish": true
@@ -19,21 +18,17 @@
       "type": "string"
     },
     "headerBackground": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "sectionTitle": {
-      "type": "string"
-    },
-    "sectionDescription": {
-      "type": "text"
+    "termCondition": {
+      "type": "richtext"
     }
   }
 }

@@ -15,7 +15,7 @@
     "name": {
       "type": "string"
     },
-    "description": {
+    "descriptionShort": {
       "type": "text"
     },
     "image": {
@@ -28,6 +28,9 @@
         "videos",
         "audios"
       ]
+    },
+    "descriptionLong": {
+      "type": "richtext"
     }
   }
 }

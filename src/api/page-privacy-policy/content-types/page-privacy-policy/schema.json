@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "page_blogs",
+  "collectionName": "page_privacy_policies",
   "info": {
-    "singularName": "page-blog",
-    "pluralName": "page-blogs",
-    "displayName": "Page Blog",
-    "description": ""
+    "singularName": "page-privacy-policy",
+    "pluralName": "page-privacy-policies",
+    "displayName": "Page Privacy Policy"
   },
   "options": {
     "draftAndPublish": true
@@ -19,21 +18,17 @@
       "type": "string"
     },
     "headerBackground": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "sectionTitle": {
-      "type": "string"
-    },
-    "sectionDescription": {
-      "type": "text"
+    "privacyPolicy": {
+      "type": "richtext"
     }
   }
 }
