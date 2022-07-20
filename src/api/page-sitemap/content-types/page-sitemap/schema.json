@@ -22,14 +22,21 @@
       "type": "richtext"
     },
     "headerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
     }
   }
 }

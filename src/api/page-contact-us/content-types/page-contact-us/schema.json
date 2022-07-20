@@ -44,6 +44,12 @@
       "type": "component",
       "repeatable": false,
       "component": "general.address"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page-privacy-policy",
     "pluralName": "page-privacy-policies",
-    "displayName": "Page Privacy Policy"
+    "displayName": "Page Privacy Policy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,24 @@
       "type": "string"
     },
     "headerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "privacyPolicy": {
       "type": "richtext"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
     }
   }
 }

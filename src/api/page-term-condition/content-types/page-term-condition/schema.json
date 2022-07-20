@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page-term-condition",
     "pluralName": "page-term-conditions",
-    "displayName": "Page Term Condition"
+    "displayName": "Page Term Condition",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,24 @@
       "type": "string"
     },
     "headerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "termCondition": {
       "type": "richtext"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
     }
   }
 }
