@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_company_values",
+  "info": {
+    "singularName": "page-company-value",
+    "pluralName": "page-company-values",
+    "displayName": "Page Company Value",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value1": {
+      "type": "richtext"
+    },
+    "value2": {
+      "type": "richtext"
+    },
+    "value3": {
+      "type": "richtext"
+    },
+    "value4": {
+      "type": "richtext"
+    },
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "headerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageLeft": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
