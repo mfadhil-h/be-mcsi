@@ -10,13 +10,27 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "header1": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "header2": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "headerBackground": {
       "type": "media",
@@ -27,13 +41,28 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "sectionTitle": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "sectionDescription": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image1": {
       "type": "media",
@@ -44,7 +73,12 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "image2": {
       "type": "media",
@@ -55,32 +89,72 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "visionShort": {
       "type": "text",
-      "maxLength": 256
+      "maxLength": 256,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "missionShort": {
       "type": "text",
-      "maxLength": 256
+      "maxLength": 256,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "companyValueShort": {
       "type": "text",
-      "maxLength": 256
+      "maxLength": 256,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "visionLong": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "missionLong": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "companyValueLong": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "youtubeLink": {
       "type": "string",
-      "default": "https://www.youtube.com/embed/Y18bUQkPU8w"
+      "default": "https://www.youtube.com/embed/Y18bUQkPU8w",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }

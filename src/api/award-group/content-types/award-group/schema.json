@@ -4,7 +4,8 @@
   "info": {
     "singularName": "award-group",
     "pluralName": "award-groups",
-    "displayName": "Award Group"
+    "displayName": "Award Group",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "awardPeriod": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "awardGroupDescription": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client",
     "pluralName": "clients",
-    "displayName": "Client"
+    "displayName": "Client",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,24 +13,28 @@
   "pluginOptions": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "order": {
       "type": "integer",
-      "unique": true
+      "unique": true,
+      "required": true
     }
   }
 }

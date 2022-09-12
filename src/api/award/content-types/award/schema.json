@@ -15,7 +15,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -24,10 +24,12 @@
       ]
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "award_group": {
       "type": "relation",
@@ -35,7 +37,8 @@
       "target": "api::award-group.award-group"
     },
     "year": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

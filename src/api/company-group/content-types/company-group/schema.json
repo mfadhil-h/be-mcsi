@@ -13,15 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "icon": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -31,12 +33,13 @@
     },
     "order": {
       "type": "integer",
-      "unique": true
+      "unique": true,
+      "required": true
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -45,7 +48,8 @@
       ]
     },
     "descriptionHtml": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

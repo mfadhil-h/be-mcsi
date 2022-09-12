@@ -4,7 +4,8 @@
   "info": {
     "singularName": "career-type",
     "pluralName": "career-types",
-    "displayName": "Career Type"
+    "displayName": "Career Type",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

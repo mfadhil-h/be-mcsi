@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-category",
     "pluralName": "contact-categories",
-    "displayName": "Contact Category"
+    "displayName": "Contact Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
