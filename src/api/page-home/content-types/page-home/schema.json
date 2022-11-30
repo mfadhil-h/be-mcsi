@@ -121,7 +121,7 @@
       "default": "https://www.youtube.com/embed/Y18bUQkPU8w",
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     }
