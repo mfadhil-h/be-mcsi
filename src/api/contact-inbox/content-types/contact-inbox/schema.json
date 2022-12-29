@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_inboxes",
+  "info": {
+    "singularName": "contact-inbox",
+    "pluralName": "contact-inboxes",
+    "displayName": "Contact Inbox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
