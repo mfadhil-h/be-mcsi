@@ -9,12 +9,11 @@ module.exports = [
           "frame-src": ["youtube.com", "www.youtube.com"],
           "script-src": [
             "'self'",
-            "'script-src'",
             "'unsafe-inline'",
-            "'script-src-elem",
             "www.google-analytics.com",
             "www.googletagmanager.com",
             "google-analytics.com",
+            "www.googleadservices.com"
           ],
           upgradeInsecureRequests: null,
         },
