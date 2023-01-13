@@ -21,6 +21,7 @@ module.exports = [
             "https://googleads.g.doubleclick.net",
             "https://*.google.com",
             "https://*.google.co.id",
+            "https://www.recaptcha.net",
           ],
           "connect-src": [
             "'self'",
@@ -35,6 +36,7 @@ module.exports = [
             "https://*.googletagmanager.com",
             "https://www.google.com",
             "https://www.google.co.id",
+            "https://i.ytimg.com",
           ],
           upgradeInsecureRequests: null,
         },
