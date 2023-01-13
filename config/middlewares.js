@@ -29,6 +29,7 @@ module.exports = [
           ],
           "img-src": [
             "'self'",
+            "data:",
             "https://*.google-analytics.com",
             "https://*.googletagmanager.com",
             "https://www.google.com",
