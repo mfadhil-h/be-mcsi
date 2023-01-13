@@ -27,11 +27,12 @@ module.exports = [
             "https://*.analytics.google.com",
             "https://*.googletagmanager.com",
           ],
-          // "img-src": [
-          //   "https://*.google-analytics.com",
-          //   "https://*.googletagmanager.com",
-          //   "https://www.google.com",
-          // ],
+          "img-src": [
+            "'self'",
+            "https://*.google-analytics.com",
+            "https://*.googletagmanager.com",
+            "https://www.google.com",
+          ],
           upgradeInsecureRequests: null,
         },
       },
