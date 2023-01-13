@@ -12,6 +12,7 @@ module.exports = [
             "https://bid.g.doubleclick.net",
             "https://www.google.com/recaptcha/",
             "https://recaptcha.google.com/recaptcha/",
+            "https://www.recaptcha.net",
           ],
           "script-src": [
             "'self'",
