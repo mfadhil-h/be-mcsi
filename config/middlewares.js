@@ -22,6 +22,7 @@ module.exports = [
             "https://*.google.com",
           ],
           "connect-src": [
+            "'self'",
             "https://*.google-analytics.com",
             "https://*.analytics.google.com",
             "https://*.googletagmanager.com",
