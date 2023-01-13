@@ -20,6 +20,7 @@ module.exports = [
             "https://www.googleadservices.com",
             "https://googleads.g.doubleclick.net",
             "https://*.google.com",
+            "https://*.google.id",
           ],
           "connect-src": [
             "'self'",
@@ -33,6 +34,7 @@ module.exports = [
             "https://*.google-analytics.com",
             "https://*.googletagmanager.com",
             "https://www.google.com",
+            "https://www.google.id",
           ],
           upgradeInsecureRequests: null,
         },
