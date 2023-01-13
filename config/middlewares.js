@@ -10,6 +10,8 @@ module.exports = [
             "youtube.com",
             "www.youtube.com",
             "https://bid.g.doubleclick.net",
+            "https://www.google.com/recaptcha/",
+            "https://recaptcha.google.com/recaptcha/",
           ],
           "script-src": [
             "'self'",
@@ -22,6 +24,8 @@ module.exports = [
             "https://*.google.com",
             "https://*.google.co.id",
             "https://www.recaptcha.net",
+            "https://www.google.com/recaptcha/",
+            "https://www.gstatic.com/recaptcha/",
           ],
           "connect-src": [
             "'self'",
